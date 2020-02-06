@@ -23,6 +23,7 @@ line3 = input("Line 3: ")
 
 print("I'm going to write these to the file.")
 
+#will start on a new line if on a log file, no need to use \n first 
 target.write(line1 + "\n" + line2 + "\n" + line3 + "\n")
 
 # target.write(line1)
