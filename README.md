@@ -6,4 +6,6 @@ Exercises while learning Python
 #### Learning how to use 
 
 
-```from sys import argv```
+```python
+from sys import argv
+```
