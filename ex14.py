@@ -3,6 +3,7 @@
 from sys import argv
 
 script, user_name = argv
+#prompt is just a variable that saves the > carrot 
 prompt = '> '
 
 print(f"Hi {user_name}, I'm the {script} script")
@@ -22,4 +23,4 @@ You live in {lives}. Not sure where that is.
 And you have a {computer} computer. Nice
 """)
 
-docker run -it --rm -p 8888:8888 -v /home/aandrews/Notebooks:/home/jovyan jupyter/datascience-notebook
+# docker run -it --rm -p 8888:8888 -v /home/aandrews/Notebooks:/home/jovyan jupyter/datascience-notebook

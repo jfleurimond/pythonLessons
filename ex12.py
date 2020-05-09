@@ -1,4 +1,4 @@
-# how to prompt users 
+# how to prompt users without needing a print statement as before with the end=' '
 age = input("How old are you? ")
 height = input("How tall are you? ")
 weight = input("How much do you weigh ")

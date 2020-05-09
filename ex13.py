@@ -4,6 +4,7 @@
 from sys import argv
 # read the WYSS section for how to run this
 
+#tells command to take the arguments and save it in the variables below
 script, first, second, third = argv
 
 print("The script is called: ", script)
