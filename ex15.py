@@ -2,6 +2,7 @@ from sys import argv
 
 script, filename = argv
 
+#open(filename) is =  open(filename, 'r')
 txt= open(filename)
 
 print(f"Here's your file {filename}")

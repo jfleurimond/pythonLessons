@@ -10,9 +10,11 @@ print(f"Copying from {from_file} to {to_file}")
 in_file = open(from_file)
 indata = in_file.read()
 
+#another way to write the above line is indate= open(from_file).read()
+
 print(f"The input file is {len(indata)} bytes long")
 
-print(f"Does the output file exist? {exist(to_file)}")
+print(f"Does the output file exist? {exists(to_file)}")
 print("Ready, hit RETURN to continue, CTRL-C to abort")
 
 input()

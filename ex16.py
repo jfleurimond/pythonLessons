@@ -33,5 +33,6 @@ target.write(line1 + "\n" + line2 + "\n" + line3 + "\n")
 # target.write(line3)
 # target.write("\n")
 
+#This closes the file, kinda of hitting File -> save in  your editor
 print("And finally, we close it.")
 target.close()
