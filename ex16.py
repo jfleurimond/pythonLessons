@@ -10,8 +10,10 @@ input("?")
 
 print("Opening the file...")
 
+#w is a string that mentions the file will be open in write mode
 target = open(filename, 'w')
 
+#Deletes everything in file .truncate
 print("Truncating the file. Goodbye!")
 target.truncate()
 

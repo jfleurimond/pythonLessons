@@ -1,3 +1,1 @@
-This is a test
-adding multiple lines
-Again this is a test  
+Added some data to the file to print in my python program :)
